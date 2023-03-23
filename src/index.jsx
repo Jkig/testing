@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
+import './index.css';
 // Import your React components for the index page
 
 const Index = () => {
