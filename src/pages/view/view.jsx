@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './view.css';
+import './view.module.css';
 // Import your React components for the view page
 
 const View = () => {
