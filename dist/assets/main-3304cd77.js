@@ -1,1 +1,0 @@
-import{R as t,j as e,a as n}from"./index-1d53bd07.js";const o=()=>n("div",{children:[e("h1",{children:"starting some stuff here for index"}),e("img",{src:"/img/galaxy.jpg",alt:"WHYYYY? this isn't wroking"}),e("a",{href:"view.html",children:"and link to views"})]});t.render(e(o,{}),document.getElementById("index-root"));

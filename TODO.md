@@ -9,3 +9,5 @@ npx firebase deploy
 Currently, main branch is deployed, works with images, multiple pages+routing
 
 main concern now is getting Threejs to work, i want to get this to work basically witout using it first, noting how to do it, then i have all the pieces needed
+
+add way to navigate back to setup
