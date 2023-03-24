@@ -6,7 +6,7 @@ import galaxy from '/img/big_galaxy.jpg';
 // import object from "./earthScene.json";
 // import object from "./basicScene.json"
 
-//const object = JSON.parse(localStorage.getItem("sceneData"))
+const object = JSON.parse(localStorage.getItem("sceneData"))
 /*
 const object = {cameraOrbit: 699110,
   daylength: 35609,
