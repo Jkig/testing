@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.module.css';
+import './index.css';
 import { useState } from 'react'
 
 // import earthScene from "./earthScene.json";
@@ -202,6 +202,7 @@ function App() {
 
     const handleChangePlanet = e =>{
         setData({...data, earth: e.target.checked})
+        console.log("use earth", e.target.checked)
     }
 
     const handleChangePlanetDistance = e =>{

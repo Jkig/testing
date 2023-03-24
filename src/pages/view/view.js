@@ -1,5 +1,5 @@
 import * as THREE from "three"
-import "./view.module.css"
+import "./view.css"
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 import galaxy from '/img/big_galaxy.jpg';
