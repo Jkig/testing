@@ -7,6 +7,7 @@ import galaxy from '/img/big_galaxy.jpg';
 // import object from "./basicScene.json"
 
 //const object = JSON.parse(localStorage.getItem("sceneData"))
+/*
 const object = {cameraOrbit: 699110,
   daylength: 35609,
   distanceFromSun: 149600000,
@@ -23,8 +24,8 @@ const object = {cameraOrbit: 699110,
   sunColor: "#FFFFFF",
   sunSize: 1400000,
   tilt: 0.05462881,
-  yearlength: 374371200} // so i can test without local storage!!!
-
+  yearlength: 374371200}
+*/
 let sunSize = object.sunSize
 
 //let planetYearLength = object.yearlength*object.speed
