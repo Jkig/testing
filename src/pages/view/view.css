@@ -10,6 +10,9 @@ margin: 2%;
 box-sizing: border-box;
 text-align: center;
 }
+.bg{
+    max-width: 100%;
+}
 
 body,
 html{
