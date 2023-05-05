@@ -1,3 +1,3 @@
-more work on readme, particularly look at other repos and do that
-gen talk
-A question mark hints for each thing, maybe alerts?? probs not.
+# Get the day/night cycle working
+
+* getting it working without animation may be a good idea, splitting the thing appart as well would be good

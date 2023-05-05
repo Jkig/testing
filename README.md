@@ -1,6 +1,14 @@
 README.md:
-# Try it out!
+
+## THIS IS ONLY FOR TESTING OF THE PLANETS APP, I'M USING IT TO WORK ON THINGS
+
+# Real Repo and App:
+https://github.com/Jkig/planets
+
 https://planetarium-eeb82.web.app
+
+# Try it out!
+https://testing-537d4.web.app/
 
 # The purpose:
 The initial idea behind this was as a reference, as when I saw artists paint scenes that were very unrealistic, or in movies or something, it takes me out of the zone and I start thinking about the system.
