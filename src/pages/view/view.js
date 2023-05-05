@@ -3,29 +3,9 @@ import "./view.css"
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 import galaxy from '/img/big_galaxy.jpg';
-// import object from "./earthScene.json";
-// import object from "./basicScene.json"
 
 const object = JSON.parse(localStorage.getItem("sceneData"))
-/*
-const object = {cameraOrbit: 699110,
-  daylength: 35609,
-  distanceFromSun: 149600000,
-  isCameraOrbit: true,
-  isEarth: false,
-  luminosity: 3.828e+26,
-  orbitLenght: 306000,
-  orbitLength: 326236.6851002738,
-  ourSun: true,
-  planetFile: "/img/2k_jupiter.jpg",
-  planetMass: 1.899e+27,
-  planetSize: 69911,
-  speed: 0.01,
-  sunColor: "#FFFFFF",
-  sunSize: 1400000,
-  tilt: 0.05462881,
-  yearlength: 374371200}
-*/
+
 let sunSize = object.sunSize
 
 //let planetYearLength = object.yearlength*object.speed
@@ -151,6 +131,7 @@ controls.update(clock.getDelta());
 
 
 function animate(time) {
+  requestAnimationFrame(animate);
   planet.rotation.y = time / planetDayLength;
   // i should be able to make the folowing much less expensive
   if (object.isCameraOrbit){
@@ -162,7 +143,7 @@ function animate(time) {
   controls.update(clock.getDelta());
   renderer.render(scene, camera);
 };
-renderer.setAnimationLoop(animate);
+animate();
 
 // wonder if this is expensive, idk
 window.addEventListener('resize', () => {
@@ -172,25 +153,3 @@ window.addEventListener('resize', () => {
   camera.updateProjectionMatrix();
   renderer.setSize(sizes.width, sizes.height);
 });
-
-
-
-
-
-
-/*
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './view.module.css';
-// Import your React components for the view page
-
-const View = () => {
-  return (
-    <div>
-      further stuff here for View
-    </div>
-  );
-};
-
-ReactDOM.render(<View />, document.getElementById('view-root'));
-*/

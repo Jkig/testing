@@ -1,0 +1,22 @@
+{
+    "planetFile": "/img/8k_earth_daymap.jpg",
+    "planetMass": 5.972e24,
+    "speed": 0.01,
+  
+    "isCameraOrbit": true,
+  
+    "ourSun": true,
+    "isEarth": true,
+    "sunColor": "#FFFFFF",
+  
+    "daylength": 86400,
+    "yearlength": 3160000,
+    "orbitLenght": 306000,
+  
+    "distanceFromSun": 149600000,
+    "planetSize": 6378,
+    "cameraOrbit": 67100,
+    "sunSize": 1400000,
+  
+    "tilt": 0.4
+  }
